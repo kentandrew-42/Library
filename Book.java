@@ -1,9 +1,10 @@
-#hello kentoon
+// Made by Kenton Roberts and Austin Rodriguez
 
 public class Book {
 	private String bookTitle;
 	private String authorName;
 	private ArrayList<Copy> listOfCopies;
+	private String dateAdded;
 	
 	public Book(String bookTitle) {
 		this.bookTitle = bookTitle;
