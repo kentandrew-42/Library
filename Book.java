@@ -1,9 +1,9 @@
 public class Book {
-	//Auspat was here
 	private String bookTitle;
 	private String authorName;
 	private ArrayList<Copy> listOfCopies;
-	
+	private boolean test;
+
 	public Book(String bookTitle) {
 		this.bookTitle = bookTitle;
 	}
